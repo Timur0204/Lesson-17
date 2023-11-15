@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let firstKatet = +prompt('Напишите первый катет (в см) для того чтобы найти гипотенузу');
+console.log(`Первый катет: ${firstKatet} см`);
+let secondKatet = +prompt('Напишите второй катет (в см) для того чтобы найти гипотенузу');
+console.log(`Второй катет: ${secondKatet} см`);
+
+let hypotenuse = Math.sqrt(firstKatet **2 + secondKatet **2);
+hypotenuse = Math.round(hypotenuse * 10) / 10;
+console.log(`Гипотенуза: ${hypotenuse} см`);
+alert(`Ответ: ${hypotenuse} см`);
+    </script>
+</body>
+</html>
