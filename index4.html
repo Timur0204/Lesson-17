@@ -7,15 +7,15 @@
 </head>
 <body>
     <script>
-let weight = +prompt('Укажите массу вещества (в кг) для определения плотности материала');
-console.log(`Масса вещества: ${weight} кг`);
-let volume = +prompt('Укажите обьем вещества (в м3) для определения плотности материала');
-console.log(`Обьем вещества: ${volume} м3`);
+    let weight = +prompt('Укажите массу вещества (в кг) для определения плотности материала');
+    console.log(`Масса вещества: ${weight} кг`);
+    let volume = +prompt('Укажите обьем вещества (в м3) для определения плотности материала');
+    console.log(`Обьем вещества: ${volume} м3`);
 
-let materialDensity = weight / volume;
-materialDensity = Math.round(materialDensity * 10) / 10;
-console.log(`Плотность материала: ${materialDensity} кг/м3`);
-alert(`Ответ: ${materialDensity} кг/м3`);
+    let materialDensity = weight / volume;
+    materialDensity = Math.round(materialDensity * 10) / 10;
+    console.log(`Плотность материала: ${materialDensity} кг/м3`);
+    alert(`Ответ: ${materialDensity} кг/м3`);
     </script>
 </body>
 </html>

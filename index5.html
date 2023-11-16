@@ -7,15 +7,15 @@
 </head>
 <body>
     <script>
-let population = +prompt('Напишите количество населения страны для определения плотности населения');
-console.log(`Населения: ${population}`);
-let territoryArea = +prompt('Напишите размер территория страны (в км2) для определения плотности населения');
-console.log(`Территория: ${territoryArea} км2`);
+    let population = +prompt('Напишите количество населения страны для определения плотности населения');
+    console.log(`Населения: ${population}`);
+    let territoryArea = +prompt('Напишите размер территория страны (в км2) для определения плотности населения');
+    console.log(`Территория: ${territoryArea} км2`);
 
-let populationDensity = population / territoryArea;
-populationDensity = Math.round(populationDensity * 10) / 10;
-console.log(`Плотность населения страны: ${populationDensity}`);
-alert(`Ответ: ${populationDensity}`);
+    let populationDensity = population / territoryArea;
+    populationDensity = Math.round(populationDensity * 10) / 10;
+    console.log(`Плотность населения страны: ${populationDensity}`);
+    alert(`Ответ: ${populationDensity}`);
 
     </script>
 </body>
